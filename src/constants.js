@@ -23,7 +23,10 @@ import postmanLogo from './assets/tech_logo/postman.png';
 import netlifyLogo from './assets/tech_logo/netlify.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
 
-// Experience Section Logo's
+// Experince Section Logo's
+import wiprologo from './assets/company_logo/wipro_logo.png';
+
+// Internship Section Logo's
 import floobytelogo from './assets/company_logo/floobyte_logo.png';
 import persistentlogo from './assets/company_logo/persistent_logo.png';
 import phntechnologylogo from './assets/company_logo/phn_logo.png';
@@ -86,13 +89,36 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
+
+
+export const experiences = [
+    {
+  id: 0,
+  img: wiprologo,
+  role: "Cyber Security Analyst",
+  company: "Wipro Technologies",
+  date: "15th Sep 2025 - Present",
+  desc: "Responsible for monitoring, analyzing, and responding to security threats across enterprise systems. incident response, and security log analysis to identify potential risks. Collaborated with IAM teams to strengthen security posture, implement security controls, and ensure compliance with organizational and industry security standards.",
+  skills: [
+    "Cyber Security Fundamentals",
+    "Incident Response",
+    "Network Security",
+    "Identity and Access Management (IAM)",
+    "Threat Monitoring",
+    "Compliance & Security Policies"
+  ],
+},
+   
+  ];
+
+
+  export const internships = [
     {
       id: 0,
       img: floobytelogo,
       role: "Fullstack Developer",
       company: "Floobyte",
-      date: "January 2024 - Present",
+      date: "Sep 2024 - Dec 2024",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
